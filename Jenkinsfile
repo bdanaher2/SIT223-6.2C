@@ -131,6 +131,12 @@ pipeline {
 
             }
 
+            stage('Complete') {
+
+            steps {
+                echo "Project complete!"
+            }
+
         }  
     }
 }
