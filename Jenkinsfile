@@ -10,7 +10,7 @@ pipeline {
 
             post {
             success {
-                mail to: "vcooblall2021@gmail.com",
+                mail to: "bdanaher2@gmail.com",
 
                 subject: "Build Status Email",
 
@@ -27,7 +27,7 @@ pipeline {
             post {
                 success {
 
-                    mail to: "vcooblall2021@gmail.com",
+                    mail to: "bdanaher2@gmail.com",
 
                     subject: "Unit and integration tests Status Email",
 
@@ -45,7 +45,7 @@ pipeline {
             post {
                 success {
 
-                    mail to: "vcooblall2021@gmail.com",
+                    mail to: "bdanaher2@gmail.com",
 
                     subject: "Code Analysis Email",
 
@@ -64,7 +64,7 @@ pipeline {
             post {
                 success {
 
-                    mail to: "vcooblall2021@gmail.com",
+                    mail to: "bdanaher2@gmail.com",
 
                     subject: "Security Scan Status Email",
 
@@ -83,7 +83,7 @@ pipeline {
             post {
                 success {
 
-                    mail to: "vcooblall2021@gmail.com",
+                    mail to: "bdanaher2@gmail.com",
 
                     subject: "Deploy to Staging Status Email",
 
@@ -103,7 +103,7 @@ pipeline {
 
                 success {
 
-                    mail to: "vcooblall2021@gmail.com",
+                    mail to: "bdanaher2@gmail.com",
 
                     subject: "Integration Tests Status Email",
 
@@ -121,7 +121,7 @@ pipeline {
 
             post {
                 success {
-                    mail to: "vcooblall2021@gmail.com",
+                    mail to: "bdanaher2@gmail.com",
 
                     subject: "Deploy Status Email",
 
