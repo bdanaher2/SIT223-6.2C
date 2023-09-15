@@ -128,9 +128,13 @@ pipeline {
                     body: "Deploy was successful!"
 
                 }
-
             }
+        } 
 
-        }  
+        stage('Complete') {
+            steps {
+                echo "Complete!"
+            }
+        }   
     }
 }
