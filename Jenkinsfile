@@ -130,7 +130,14 @@ pipeline {
                 }
 
             }
+        
+        }
 
-        }   
+        stage('complete')
+        {
+            steps {
+                echo "Completed!"
+            }
+        }
     }
 }
